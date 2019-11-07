@@ -1,0 +1,26 @@
+{
+  "name": "ndashutin/serializable",
+  "description": "Serialize data to string",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Nikolay Dashiton",
+      "email": "mikola.dashutin@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "ext-json": "*",
+    "ndashutin/raw-data-processor": "^0.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ndashutin\\tools\\serializable\\": "src",
+      "ndashutin\\tools\\serializable\\tests\\": "tests"
+    }
+  }
+}
